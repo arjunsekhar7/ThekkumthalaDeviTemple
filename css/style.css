@@ -46,7 +46,7 @@ section .container { padding: 0 50px; }
 .loader { position: fixed; top: 0; left: 0; width: 100%; height: 100%; background-color: #000; z-index: 99999999; }
 .loader .loader-inner { position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); }
 .loader .loader-inner img { width: 70px; }
-.loader .loader-inner h5 { color: #EEC314; font-weight: 300; text-transform: uppercase; letter-spacing: 1px; }
+.loader .loader-inner h5 { color: white; font-weight: 300; text-transform: uppercase; letter-spacing: 1px; }
 /* End Page Loader */
 
 /* Start Intro Section */
@@ -58,24 +58,24 @@ section .container { padding: 0 50px; }
 
 /* Start Main Navbar */
 .navbar { z-index: 1; background-color: transparent; border: none; padding: 10px 0 0; margin-bottom: 0; position: fixed; left: 50%; transform: translateX(-50%); z-index: 99999; transition: height .3s ease-in-out; }
-.navbar .container { padding: 0 50px; height: 100%; }
+.navbar .container { padding: 0 20px; height: 100%; }
 .navbar .container .inner-navbar { border-bottom: 1px solid rgba(255, 255, 255, .3); padding-bottom: 5px; }
-.navbar .navbar-header .navbar-brand { color: #FFF; font-size: 25px; font-weight: 100; letter-spacing: .6px;  }
-.navbar .navbar-header .navbar-brand span { color: #EEC314; font-weight: 900; }
+.navbar .navbar-header .navbar-brand { color: #FFF; font-size: 18px; font-weight: 100; letter-spacing: .3px;  }
+.navbar .navbar-header .navbar-brand span { color: #ed2b00; font-weight: 900; }
 .navbar .navbar-header .navbar-brand span.new-year img { width: 41px; height: 41px; position: absolute; top: 5px; left: 32px; }
 .navbar .navbar-nav li:last-of-type a { padding-right: 0; }
-.navbar .navbar-nav li a { color: #FFF; font-size: 11px; font-weight: 300; letter-spacing: .5px; }
-.navbar .navbar-nav li a:hover, .navbar .navbar-nav li a.active { color: #EEC314; }
+.navbar .navbar-nav li a { color: #FFF; font-size: 10px; font-weight: 300; letter-spacing: .1px; }
+.navbar .navbar-nav li a:hover, .navbar .navbar-nav li a.active { color: #ed2b00; }
 .navbar .navbar-header .navbar-brand span.new-year { display: none; }
 
-.navbar-fixed-style { width: 100%; border-radius: 0; height: 60px; padding: 0; background: #FFF; box-shadow: 0 0 10px rgba( 0, 0, 0, .3 ); transition: all .3s ease; }
+.navbar-fixed-style { width: 100%; border-radius: 0; height: 60px; padding: 0; background: #FFF; box-shadow: 0 0 15px rgba( 0, 0, 0, .3 ); transition: all .3s ease; }
 .navbar-fixed-style .container .inner-navbar { height: 100%; padding: 0; border-bottom: 0; }
-.navbar-fixed-style .navbar-header .navbar-brand { height: 100%; line-height: 60px; padding: 0 15px; color: #111; }
+.navbar-fixed-style .navbar-header .navbar-brand { height: 100%; line-height: 60px; padding: 0 10px; color: #111; }
 .navbar-fixed-style .navbar-header .navbar-brand span.new-year img { width: 41px; height: 41px; position: absolute; top: 0; left: 207px; }
 .navbar-fixed-style .navbar-right { height: 60px; }
 .navbar-fixed-style .navbar-right li { height: 100%; }
 .navbar-fixed-style .navbar-right li a { height: 100%; padding: 0 15px; line-height: 60px; color: #111; }
-.navbar-fixed-style .navbar-nav li a.active, .navbar-fixed-style .navbar-right li a:hover { color: #EEC314; }
+.navbar-fixed-style .navbar-nav li a.active, .navbar-fixed-style .navbar-right li a:hover { color: #ed2b00; }
 .navbar-fixed-style .navbar-header .navbar-brand span.new-year { display: none; }
 /* End Main Navbar */
 
