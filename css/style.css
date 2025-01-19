@@ -172,13 +172,13 @@ section .container { padding: 0 50px; }
 .works .item .image .border .border-content .review { position: absolute; bottom: 11px; right: 11px; z-index: 6; color: #EEC314; opacity: 0; visibility: hidden; }
 .works .item .image:hover .border .border-content .review { opacity: 1; visibility: visible; }
 
-.view-all-works { background-color: #EEC314; padding: 13px 30px; border: none; outline: none; letter-spacing: .5px; text-decoration: none; border-radius: 50px; }
-.view-all-works a { font-size: 13px; color: #111; text-decoration: none; display: block; text-transform: uppercase; line-height: 1; }
+.view-all-works { background-color: #ed2b00; padding: 13px 30px; border: none; outline: none; letter-spacing: .5px; text-decoration: none; border-radius: 50px; }
+.view-all-works a { font-size: 13px; color: white; text-decoration: none; display: block; text-transform: uppercase; line-height: 1; }
 .view-all-works a i { font-size: 15px; padding-left: 5px; }
 /* End Works Section */
 
 /* Start Other Works Section */
-.other-works .section-title h2::after { content: ''; width: 50px; height: 2px; background: #EEC314; position: absolute; bottom: 0; left: 0; right: 0; margin: 0; }
+.other-works .section-title h2::after { content: ''; width: 50px; height: 2px; background: #ed2b00; position: absolute; bottom: 0; left: 0; right: 0; margin: 0; }
 .other-works .section-description p { color: #EEE; font-size: 11px; margin: 0; text-transform: uppercase; }
 .other-works .section-title h2 { margin-bottom: 20px; }
 .other-works .section-intro { margin-left: 0; color: #EEE; }
