@@ -236,12 +236,12 @@ section .container { padding: 0 50px; }
 .testimonial .item .content::before { content: '"'; font-size: 18px; font-family: sans-serif; }
 .testimonial .item .content::after { content: '"'; font-size: 18px; font-family: sans-serif; }
 
-.testimonial .item .meta .name { color: #EEC314; font-style: italic; }
+.testimonial .item .meta .name { color: #ed2b00; font-style: italic; }
 .testimonial .item .meta .name::before { content: '_ '; }
 .testimonial .item .meta span { color: #BBB; font-size: 10px; }
 
 .testimonial .owl-pagination { text-align: center; margin-top: 20px; }
-.testimonial .owl-pagination .owl-page { display: inline-block; width: 10px; height: 10px; border: 1px solid #EEC314; margin-right: 5px; border-radius: 50%; transition: all .3s ease; }
+.testimonial .owl-pagination .owl-page { display: inline-block; width: 10px; height: 10px; border: 1px solid #ed2b00; margin-right: 5px; border-radius: 50%; transition: all .3s ease; }
 .testimonial .owl-pagination .owl-page.active { background: #EEC314; }
 /* End Testimonial Section */
 
@@ -289,27 +289,27 @@ section .container { padding: 0 50px; }
 .contact .section-description p { color: #DDD; }
 .contact .section-intro { color: #DDD; }
 .contact .section-title h2 { margin-bottom: 20px; }
-.contact .contact-us .contact-info { background-color: rgba(238, 195, 20, .8); height: 100%; padding: 30px; color: #111; }
-.contact .contact-us .contact-info h4, .contact .contact-us .contact-form h4 { text-align: left; text-transform: uppercase; color: #111; position: relative; padding-bottom: 15px; margin-bottom: 30px; }
-.contact .contact-us .contact-info h4::after, .contact .contact-us .contact-form h4::after { content: ''; width: 50px; height: 2px; background: #111; position: absolute; bottom: 0; left: 0; right: 0; margin: 0; }
-.contact .contact-us .contact-info .info i { font-size: 30px; display: inline-block; height: 60px; line-height: 60px; width: 50px; padding-right: 15px; border-right: 1px solid #111; margin-bottom: 25px; margin-right: 20px; }
+.contact .contact-us .contact-info { background-color: #f16040; height: 100%; padding: 30px; color: white; }
+.contact .contact-us .contact-info h4, .contact .contact-us .contact-form h4 { text-align: left; text-transform: uppercase; color: white; position: relative; padding-bottom: 15px; margin-bottom: 30px; }
+.contact .contact-us .contact-info h4::after, .contact .contact-us .contact-form h4::after { content: ''; width: 50px; height: 2px; background: white; position: absolute; bottom: 0; left: 0; right: 0; margin: 0; }
+.contact .contact-us .contact-info .info i { font-size: 30px; display: inline-block; height: 60px; line-height: 60px; width: 50px; padding-right: 15px; border-right: 1px solid white; margin-bottom: 25px; margin-right: 20px; }
 .contact .contact-us .contact-info .info span { position: absolute; font-size: 13px; font-weight: 700; text-transform: uppercase; letter-spacing: .3px; }
-.contact .contact-us .contact-info .info span h6 { text-transform: capitalize; line-height: 1.2; color: #111; padding-right: 30px; font-weight: 300; }
+.contact .contact-us .contact-info .info span h6 { text-transform: capitalize; line-height: 1.2; color: white; padding-right: 30px; font-weight: 300; }
 .contact .contact-us .contact-info .info span #map { cursor: pointer; }
 .contact .contact-us .contact-info .info span #map:hover { text-decoration: underline; }
 
 .contact .contact-us .contact-form { background-color: rgba(255, 255, 255, .8); height: 100%; padding: 30px; }
 .contact .contact-us .contact-form h4 { color: #111 }
-.contact .contact-us .contact-form h4::after { background-color: #EEC314; }
+.contact .contact-us .contact-form h4::after { background-color: #ed2b00; }
 .contact .contact-us .contact-form form > i { width: 30px; font-size: 22px; padding-right: 15px; color: #111; position: relative; top: 8px; }
 .contact .contact-us .contact-form form > i:last-of-type { top: -85px; }
 .contact .contact-us .contact-form input { border: none; outline: none; border-bottom: 1px solid #999; padding: 5px; font-size: 13px; margin-bottom: 15px; background: transparent; transition: all .3s ease-in-out; width: 85%; }
 .contact .contact-us .contact-form textarea:focus , .contact .contact-us .contact-form input:focus { border-color: #111; }
 .contact .contact-us .contact-form textarea { padding: 5px; border: none; outline: none; resize: none; border-bottom: 1px solid #999; font-size: 13px; margin-top: 10px; height: 100px; background: transparent;  transition: all .3s ease-in-out; width: 85%; margin-bottom: 5px; }
-.contact .contact-us .contact-form button { position: relative; left: 32px; padding: 8px 36px; border: none; outline: none; color: #111; background-color: #EEC314; font-size: 13px; border-radius: 50px; }
+.contact .contact-us .contact-form button { position: relative; left: 32px; padding: 8px 36px; border: none; outline: none; color: white; background-color: #ed2b00; font-size: 13px; border-radius: 50px; }
 
 .contact .contact-us .map { position: fixed; top: 0; left: 0; width: 100%; height: 100%; display: none; z-index: 999999; background-color: #EEE; }
-.contact .contact-us .map .close-map { width: 100px; height: 100px; background-color: #EEC314; border-radius: 50%; position: absolute; bottom: -50px; left: -50px; text-align: right; cursor: pointer; transition: all .3s ease-in-out; }
+.contact .contact-us .map .close-map { width: 100px; height: 100px; background-color: #ed2b00; border-radius: 50%; position: absolute; bottom: -50px; left: -50px; text-align: right; cursor: pointer; transition: all .3s ease-in-out; }
 .contact .contact-us .map .close-map i { font-size: 25px; color: #111; position: relative; right: 24px; top: 14px; }
 /*End Contact Us Section*/
 
@@ -322,15 +322,15 @@ section .container { padding: 0 50px; }
 .entry-footer .icons ul li a { color: #787878; font-size: 30px; display: block; }
 .entry-footer .icons ul li a:hover { color: #FFF; }
 
-.tooltip-inner { padding: 5px 10px; background-color: #EEC314; border-radius: 50px; font-size: 12px; font-family: sans-serif; }
-.tooltip.top .tooltip-arrow { border-top-color: #EEC314 }
+.tooltip-inner { padding: 5px 10px; background-color: #ed2b00; border-radius: 50px; font-size: 12px; font-family: sans-serif; }
+.tooltip.top .tooltip-arrow { border-top-color: #ed2b00 }
 
 .entry-footer p { font-size: 11px; }
-.entry-footer p a { color: #EEC314; text-decoration: none; }
+.entry-footer p a { color: #ed2b00; text-decoration: none; }
 /* End Footer */
 
 /* Start Go To Top */
-.go-to-top{ width: 25px; height: 25px; line-height: 25px; text-align: center; border-radius: 50%; color: #FFF; background-color: #EEC314; border-bottom: none; position: fixed; bottom: 15px; right: 15px; cursor: pointer; display: none; transition: all .3s ease-in-out; }
+.go-to-top{ width: 25px; height: 25px; line-height: 25px; text-align: center; border-radius: 50%; color: #FFF; background-color: #ed2b00; border-bottom: none; position: fixed; bottom: 15px; right: 15px; cursor: pointer; display: none; transition: all .3s ease-in-out; }
 /* End Go To Top */
 
 /**********************************************************************************************************************************************************
@@ -393,7 +393,7 @@ section .container { padding: 0 50px; }
 /* Start Pager */
 .works-page .pager { margin-bottom: 0; margin-top: 0; }
 .works-page .pager li > a, .works-page .pager li > span { width: 25px; height: 25px; border-radius: 50%; text-align: center; line-height: 25px; padding: 0; border-color: #EEC314; color: #EEC314; font-size: 12px; transition: all .3s ease-in-out; }
-.works-page .pager li > a:hover, .works-page .pager li > span:hover { background-color: #EEC314; border-color: #EEC314; color: #111 }
+.works-page .pager li > a:hover, .works-page .pager li > span:hover { background-color: #ed2b00; border-color: #ed2b00; color: #111 }
 /* End Pager */
 
 /**********************************************************************************************************************************************************
@@ -506,8 +506,8 @@ section .container { padding: 0 50px; }
 .team-member .team-info .social .icon { display: inline-block; margin-left: 20px; }
 .team-member .team-info .social .icon:first-child { margin-left: 0; }
 .team-member .team-info .social .icon a { color: #787878; font-size: 22px; }
-.team-member .team-info .social .icon a:hover { color: #EEC314; }
-.team-member .team-info .social .tooltip.right .tooltip-arrow { border-right-color: #EEC314 }
+.team-member .team-info .social .icon a:hover { color: #ed2b00; }
+.team-member .team-info .social .tooltip.right .tooltip-arrow { border-right-color: #ed2b00 }
 /* End Team Member Social Media */
 
 /* Start Team Member Education */
@@ -515,7 +515,7 @@ section .container { padding: 0 50px; }
 .team-member .education .section-title { margin-bottom: 30px; }
 .team-member .education .section-title h2:after { margin: 0 auto; }
 
-.team-member .education .edu { padding: 35px; background-color: #EEC314; }
+.team-member .education .edu { padding: 35px; background-color: #ed2b00; }
 .team-member .education .edu h4 { color: #111; text-transform: uppercase; font-size: 14px; position: relative; }
 .team-member .education .edu h4::before { content: ''; position: absolute; width: 50px; height: 2px; background: #111; bottom: -10px; }
 .team-member .education .edu p { color: #111; font-size: 13px; margin-bottom: 30px; margin-top: 30px; font-weight: 300; }
@@ -540,7 +540,7 @@ section .container { padding: 0 50px; }
 /* Start Team Member Language */
 .team-member .education .lang { padding: 35px; }
 .team-member .education .lang h4 { color: #111; text-transform: uppercase; font-size: 14px; position: relative; margin-top: 0; }
-.team-member .education .lang h4::before { content: ''; position: absolute; width: 50px; height: 2px; background: #EEC314; bottom: -10px; }
+.team-member .education .lang h4::before { content: ''; position: absolute; width: 50px; height: 2px; background:#ed2b00; bottom: -10px; }
 .team-member .education .lang p { color: #787878; font-size: 13px; margin-bottom: 30px; margin-top: 30px; }
 
 .team-member .education .lang .lang-progress .lang-item { overflow: hidden; margin-bottom: 10px; }
@@ -548,7 +548,7 @@ section .container { padding: 0 50px; }
 .team-member .education .lang .lang-progress .lang-item ul { display: table; }
 .team-member .education .lang .lang-progress .lang-item ul li { display: inline-block; margin-right: 15px; }
 .team-member .education .lang .lang-progress .lang-item ul li:last-child { margin-right: 0; }
-.team-member .education .lang .lang-progress .lang-item ul li .icon { color: #EEC314; margin-right: 5px; }
+.team-member .education .lang .lang-progress .lang-item ul li .icon { color: #ed2b00; margin-right: 5px; }
 .team-member .education .lang .lang-progress .lang-item ul li .name { font-size: 12px; }
 /* End Team Member Language */
 
