@@ -11,7 +11,7 @@ section { padding: 50px 0; }
 section .container { padding: 0 50px; }
 
 /* Centering Items */
-.centreing { position: absolute; top: 50%; left: 50%; bottom: 50%; transform: translate(-50%, -50%); }
+.centreing { position: relative; top: 50%; left: 50%; bottom: 50%; transform: translate(-50%, -50%); }
 
 /* Uppercase Text */
 .uppercase { text-transform: uppercase; }
