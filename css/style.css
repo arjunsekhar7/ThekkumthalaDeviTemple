@@ -182,17 +182,17 @@ section .container { padding: 0 50px; }
 .other-works .section-description p { color: #EEE; font-size: 11px; margin: 0; text-transform: uppercase; }
 .other-works .section-title h2 { margin-bottom: 20px; }
 .other-works .section-intro { margin-left: 0; color: #EEE; }
-.other-works .item { width: 23%; margin: 0 1.333333%; margin-bottom: 50px; float: left; position: relative; cursor: pointer; overflow: hidden; height: 328px; opacity: .5; transition: all .3s ease-in-out; }
+.other-works .item { width: 50%; margin: 0 1.333333%; margin-bottom: 50px; float: none; position:relative; cursor: pointer; overflow: hidden; height: 150px; opacity: .5; transition: all .3s ease-in-out; }
 .other-works .item:first-of-type { width: 23%; margin-left: 0; }
 .other-works .item:last-of-type { width: 23%; margin-right: 0; }
 
-.other-works .item .image { position: absolute; }
+.other-works .item .image { position: absolute; margin-left: 0; margin-right: 0; }
 .other-works .item .image img { transition: all .3s ease-in-out; }
 
-.other-works .item .caption { position: absolute; top: 0; left: 0; width: 100%; height: 100%; color: #EEC314; text-transform: uppercase; backface-visibility: hidden; font-weight: 700; }
-.other-works .item .caption p { position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); margin: 0; color: #EEC314; font-size: 5px; text-transform: uppercase; width: 100%; padding: 0 20px; text-align: center; transition: all .35s ease-in-out; opacity: 0; text-shadow: 1px 1px 0 #444; }
+.other-works .item .caption { position: absolute; top: 0; left: 0; width: 100%; height: 100%; color: #ed2b00; text-transform: uppercase; backface-visibility: hidden; font-weight: 700; }
+.other-works .item .caption p { position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); margin: 0; color: #ed2b00; font-size: 5px; text-transform: uppercase; width: 100%; padding: 0 20px; text-align: center; transition: all .35s ease-in-out; opacity: 0; text-shadow: 1px 1px 0 #444; }
 .other-works .item .caption p i { display: block; font-size: 36px; }
-.other-works .item .caption::after { position: absolute; top: 0; left: 0; width: 100%; height: 100%; border-top: 30px solid #EEC314; border-bottom: 30px solid #EEC314; content: ''; opacity: 0; transform: rotate3d(0,0,1,45deg) scale3d(1,0,1); transform-origin: 50% 50%; transition: opacity .35s ease-in-out, transform .35s ease-in-out; }
+.other-works .item .caption::after { position: absolute; top: 0; left: 0; width: 100%; height: 100%; border-top: 30px solid #ed2b00; border-bottom: 30px solid #ed2b00; content: ''; opacity: 0; transform: rotate3d(0,0,1,45deg) scale3d(1,0,1); transform-origin: 50% 50%; transition: opacity .35s ease-in-out, transform .35s ease-in-out; }
 .other-works .item:hover .caption::after { opacity: 1; transform: rotate3d(0, 0, 1, 45deg) scale3d(1.2, 1.2, 1.2); }
 .other-works .item:hover img { opacity: .7; transform: scale3d(1.5, 1.5, 1); filter: blur(2px); }
 .other-works .item:hover .caption p { opacity: 1; font-size: 13px; }
